@@ -30,7 +30,7 @@ class _TelaLoginState extends State<TelaLogin> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.asset('/home/labin-linux/AndroidStudioProjects/quase/lib/logo.png'),
+                Image.network('https://raw.githubusercontent.com/kellerdmichel/mesozoico/refs/heads/master/lib/logo.png'),
                 const Text(
                   'Login',
                   style: TextStyle(

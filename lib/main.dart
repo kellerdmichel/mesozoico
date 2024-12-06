@@ -41,7 +41,7 @@ class _MeuAppState extends State<MeuApp> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image(image: AssetImage('/home/labin-linux/AndroidStudioProjects/quase/lib/logolado.png'),height: AppBar().preferredSize.height * 1.0,)
+            Image(image: NetworkImage("https://raw.githubusercontent.com/kellerdmichel/mesozoico/refs/heads/master/lib/logolado.png"),height: AppBar().preferredSize.height * 1.0,)
           ],
         ),
       ),
